@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: black;
+            width: 600px;
+        }
+        .container{
+            margin-top: 400px;
+        
+        }
+        .redd{
+            height: 30px;
+            width: 30px;
+            background-color: red;
+            border-radius: 100%;
+            animation-duration: 4s; 
+            animation-name: bluee;   
+            animation-iteration-count: infinite;
+            animation-delay: 0.3s;
+            animation-timing-function: linear;
+            position: absolute;
+            z-index: 1;
+            animation-direction: alternate-reverse;
+            
+                  
+        }
+        .greenn{
+             height: 30px;
+            width: 30px;
+            background-color: greenyellow;
+            border-radius: 100%;  
+            animation-name: bluee;
+            animation-duration: 4s; 
+            animation-delay: 0.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: absolute;
+            z-index: 2;
+            animation-direction: alternate-reverse;
+        }
+        .bluee{
+             height: 30px;
+            width: 30px;
+            background-color: rgb(19, 131, 243);
+            border-radius: 100%;
+            animation-name: bluee;
+            animation-duration: 4s; 
+            animation-delay: 0.9s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: absolute;
+            z-index: 3;
+            animation-direction: alternate-reverse;
+        }
+        
+        @keyframes bluee{
+              0%{
+                transform: translate(0px,0px);
+            }
+            20%{
+                transform: translate(240px,200px);
+            }
+            40%{
+              transform: translate(480px,0);
+            }
+            60%{
+                transform: translate(720px,200px);
+            }
+            80%{
+                transform: translate(960px,0px);
+            }
+            100%{
+                transform: translate(1200px,200px);
+            }
+        }
+
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="redd"></div>
+        <div class="greenn"></div>
+        <div class="bluee"></div>
+    </div>
+    
+</body>
+</html>

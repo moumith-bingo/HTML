@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            height: 1500px;
+        }
+        .vis{
+            background-color: brown;
+            height: 600px;
+            width: 400px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: azure;
+            font-size: 30px;
+        }
+        .bro{
+            background-color: rgb(156, 90, 90);
+            height: 600px;
+            width: 400px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: aquamarine;
+             font-size: 30px;
+             position: relative;
+             z-index: 2;
+            
+        }
+
+        .mim{
+            background-color: rgb(90, 156, 104);
+            height: 600px;
+            width: 400px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(28, 37, 161);
+             font-size: 30px;
+             position: relative;
+             z-index: 1;
+             bottom: 650px;
+        }
+        .bww{
+            background-color: rgb(20, 18, 18);
+            height: 600px;
+            width: 400px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: blueviolet;
+             font-size: 30px;
+             position: sticky;
+        }
+        .abscon{
+            background-color: aqua;
+            height: 400px;
+            width:100%;
+             padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+             font-size: 30px;
+           margin-top: 300px;
+        }
+        .abs{
+            background-color: red;
+            height: 300px;
+            width: 800px;
+            display: flex;
+             justify-content: center;
+            align-items: center;
+            position: absolute;
+        }
+        .fixed{
+            background-color: black;
+            height: 100px;
+            width: 200px;
+            color: white;
+             display: flex;
+             font-size: xx-large;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            margin: 400px;
+            position: fixed;
+            top: 200px;
+
+
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="vis">static</div><br>
+    <div class="bro">relative</div><br>
+    <div class="mim">relative</div><br>
+    <div class="abscon">
+        <div class="abs">absolute box</div>
+       
+
+    </div> 
+    <div class="fixed">fixed</div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+p{
+    font-size: 400px;
+}
+img{
+    height: 300px;
+    width: 50px;
+    border-left: 100px dotted greenyellow;
+}
