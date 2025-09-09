@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+ 
+        .title::before{
+            content: "\1F525";
+        }
+        .title::after{
+            content: "\2764";
+            color: red;
+        }
+        .first{
+            font-size: x-large;
+            font-weight: 900;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .second{
+            font-size: x-large;
+            font-weight: 900;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .first::selection{
+            background-color: palegreen;
+            color: green;
+        }
+        .second::selection{
+            background-color:lightsalmon;
+            color: maroon;
+        }
+        ul{
+            font-size: xx-large;
+        }
+        li::marker{
+            color:red;
+        }
+        li::selection{
+            background-color: orange;
+            color: rgb(136, 73, 11);
+        }
+        
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+      <h1 class="title">HELLO GUYS</h1>
+      <p class="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui quod tempora vitae in unde doloremque eius distinctio perferendis enim quaerat fugit quo quidem, sapiente quos voluptas minima, officia nisi?</p>
+      <p class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ea nostrum quos soluta. Labore doloribus eligendi, ea fuga adipisci sunt impedit ratione quae mollitia eius obcaecati ducimus sapiente dolores provident?</p>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+
+    </body>
+</html>

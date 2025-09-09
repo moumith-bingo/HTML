@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            padding: 300px;
+        }
+        li{
+              font-size: 30px;
+        }
+
+        li:first-child{
+          
+            font-weight: bold;
+            color: rgb(16, 112, 181);
+        }
+        li:last-child{
+            font-weight: 900;
+            color: rgb(232, 144, 12);
+        }
+        li:nth-child(){
+            background-color: blueviolet;
+        }
+        li:not(:first-child){
+           color: maroon;
+        }
+        li:not(:last-child){
+            color: aqua;
+        }
+        input:checked+label{
+            color: rgb(197, 183, 29);
+            font-size: x-large;
+            font-weight: 900;
+            background-color: rgb(255, 0, 51);
+        }
+    </style>
+    
+    <title>Document</title>
+</head>
+<body>
+  
+    <ul>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+        
+        <li>fourth</li>
+        <li>fifth</li>
+        <li>sixth</li>
+    </ul>
+    <input type="checkbox"><label for="checkbox">checkbox</label>
+    
+</body>
+</html>
