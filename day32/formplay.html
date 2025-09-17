@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="p-5">
+    <h3>1.basic input</h3>
+    <form class="mb-4">
+        <div class="mb-3">
+            <label for="home" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="enter your name">
+        </div>
+    </form>
+    <h3>2.Email & Password</h3>
+    <form class="mb-4">
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="enter your email">
+            <div class="form-text">We'll never share your email address</div>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" placeholder="enter your password">
+        </div>
+    </form>
+    <h3>3.Input Sizing</h3>
+    <form class="mb-4">
+        <div class="mb-3">
+            <input type="text" class="form-control form-control-lg mb-2" placeholder="Large input">
+            <input type="text" class="form-control mb-2" placeholder="default input">
+            <input type="text" class="form-control form-control-sm mb-2" placeholder="small input">
+        </div>
+        <h3>4.Readonly & disabled </h3>
+        <div class="mb-3">
+            <input type="text" class="form-control mb-2" placeholder="Disabled Input" disabled>
+            <input type="text" class="form-control mb-2" placeholder="Readonly Input" readonly>
+        </div>
+        <h3>5.checkbox & Radio</h3>
+        <div class="mb-3">
+            <input type="checkbox" id="Accept" name="approve" class="form-label">
+            <label for="checkbox">Accept Terms</label> 
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="male" id="Male">
+            <label class="form-check-label" for="male" >Male</label>
+        </div>
+            <div class="form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="male" id="feMale">
+            <label class="form-check-label" for="male" >Female</label>
+        </div>
+        <h3>6.File Input</h3>
+        <input type="file" class="form-control mb-2">
+        <h3>7.</h3>
+    </form>
+</body>
+</html>
