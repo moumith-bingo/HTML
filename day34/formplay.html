@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .home{
+            height: 30px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="p-4">
+    <h3 class="p-2">9.Floating Labels</h3>
+    <form class="m-3">
+        <div class="form-floating">
+            <input type="email" class="form-control" id="floating-email" placeholder="name@gmail.com">
+            <label for="floatingEmail">Email address</label>
+        </div>
+        <div class="form-floating ">
+            <input type="password" id="floatingpassword" class="form-control" placeholder="pass">
+            <label for="floatingEmail">Password</label>
+        </div><br><br>
+        <h3>10.Input Groups</h3>
+        <div class="input-group">
+            <span class="input-group-text">
+                <img src="/day34/round.png" alt="home" class="home">
+            </span>
+            <input type="text" class="form-control" placeholder="Username">
+        </div><br>
+        <divc class="input-group">
+            <input type="text" class="form-control" placeholder="Recepient's username">
+            <span class="input-group-text">@gmail.com</span>
+        </divc><br>
+        <h3>11.Validation States</h3>
+        <input type="text" class="form-control is-valid mb-2" placeholder="valid input">
+        <input type="text" class="form-control is-invalid mb-2" placeholder="invalid input">
+        <div class="invaild-feedback mb-4 form-text">please enter a valid value.</div>
+          </form>
+          <form class="row g-3 mb-4">
+        <h3>12.Horizontal Form</h3>
+        <div class="col-md-6">
+            <label for="firstName" class="form-label">first name</label>
+            <input type="text" class="form-control" id="firstName">
+        </div>
+        <div class="col-md-6">
+            <label for="lastName" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="lastName">
+        </div>
+        </form>
+      
+        <h3>13.Inline Form</h3>
+    <form class="row g-3 align-items-center mb-4">
+        <div class="col-auto">
+        <label for="firstName" class="col-form-label">first name</label>
+        </div>
+        <div class="col-auto">
+        
+            <input type="text" class="col-form-control" id="firstName">
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
